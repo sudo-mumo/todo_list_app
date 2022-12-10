@@ -139,6 +139,7 @@ class _TodoItemPage extends State<TodoItemPage> {
                                 _textEditingController.text.trim());
                             _textEditingController.text = '';
                           }
+                          return;
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(
